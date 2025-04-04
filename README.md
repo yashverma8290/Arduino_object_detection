@@ -2,8 +2,8 @@
 This project utilizes an Arduino Uno, an ultrasonic sensor, a DC motor, and an LCD display to detect nearby objects and take action accordingly. When an object is detected within a certain distance, the system activates a motor, blinks an LED, and displays a message on the LCD.
 
 # 🖥️ Components Used:
-> Arduino Uno
-> HC-SR04 Ultrasonic Sensor
+1) Arduino Uno
+2) HC-SR04 Ultrasonic Sensor
 > 16x2 LCD Display (Non-I2C)
 > DC Motor (2-Pin)
 > NPN Transistor (for motor control)
@@ -20,13 +20,13 @@ This project utilizes an Arduino Uno, an ultrasonic sensor, a DC motor, and an L
 > Serial output for distance monitoring. 
 
 # 🔌 Wiring Instructions:
-Component	                  -      Arduino Pin
-Ultrasonic Sensor TRIG	    -     D10
-Ultrasonic Sensor ECHO	    -     D11
-LCD RS, E, D4, D5, D6, D7	  -     D7, D6, D5, D4, D3, D2
-LED (via resistor)          -     D8
-DC Motor (via transistor)   -     D9
-Power & GND	                -     5V, GND
+Component	                  ->      Arduino Pin
+Ultrasonic Sensor TRIG	    ->     D10
+Ultrasonic Sensor ECHO	    ->     D11
+LCD RS, E, D4, D5, D6, D7	  ->     D7, D6, D5, D4, D3, D2
+LED (via resistor)          ->     D8
+DC Motor (via transistor)   ->     D9
+Power & GND	                ->     5V, GND
 
 # ⚡ Setup & Uploading Code:
 > Connect the components as per the schematic.
