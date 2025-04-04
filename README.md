@@ -4,13 +4,13 @@ This project utilizes an Arduino Uno, an ultrasonic sensor, a DC motor, and an L
 # 🖥️ Components Used:
 1) Arduino Uno
 2) HC-SR04 Ultrasonic Sensor
-> 16x2 LCD Display (Non-I2C)
-> DC Motor (2-Pin)
-> NPN Transistor (for motor control)
-> LED (Indicator)
-> Resistors (1kΩ, others as needed)
-> Breadboard & Jumper Wires
-> External Power Supply (if required)
+3) 16x2 LCD Display (Non-I2C)
+4) DC Motor (2-Pin)
+5) NPN Transistor (for motor control)
+6) LED (Indicator)
+7) Resistors (1kΩ, others as needed)
+8) Breadboard & Jumper Wires
+9) External Power Supply (if required)
 
 # 📜 Features:
 > Measures distance using the HC-SR04 ultrasonic sensor.
@@ -20,13 +20,13 @@ This project utilizes an Arduino Uno, an ultrasonic sensor, a DC motor, and an L
 > Serial output for distance monitoring. 
 
 # 🔌 Wiring Instructions:
-Component	                  ->      Arduino Pin
-Ultrasonic Sensor TRIG	    ->     D10
-Ultrasonic Sensor ECHO	    ->     D11
-LCD RS, E, D4, D5, D6, D7	  ->     D7, D6, D5, D4, D3, D2
-LED (via resistor)          ->     D8
-DC Motor (via transistor)   ->     D9
-Power & GND	                ->     5V, GND
+1) Component	                  ->      Arduino Pin
+2) Ultrasonic Sensor TRIG	    ->     D10
+3) Ultrasonic Sensor ECHO	    ->     D11
+4) LCD RS, E, D4, D5, D6, D7	  ->     D7, D6, D5, D4, D3, D2
+5) LED (via resistor)          ->     D8
+6) DC Motor (via transistor)   ->     D9
+7) Power & GND	                ->     5V, GND
 
 # ⚡ Setup & Uploading Code:
 > Connect the components as per the schematic.
