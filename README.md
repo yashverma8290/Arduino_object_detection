@@ -13,11 +13,11 @@ This project utilizes an Arduino Uno, an ultrasonic sensor, a DC motor, and an L
 9) External Power Supply (if required)
 
 # 📜 Features:
-> Measures distance using the HC-SR04 ultrasonic sensor.
-> Displays messages on an LCD (16x2) screen.
-> Activates a DC motor when an object is detected within 2-10 cm.
-> Turns on a red LED when an object is detected.
-> Serial output for distance monitoring. 
+1) Measures distance using the HC-SR04 ultrasonic sensor.
+2) Displays messages on an LCD (16x2) screen.
+3) Activates a DC motor when an object is detected within 2-10 cm.
+4) Turns on a red LED when an object is detected.
+5) Serial output for distance monitoring. 
 
 # 🔌 Wiring Instructions:
 1) Component	                  ->      Arduino Pin
@@ -29,16 +29,16 @@ This project utilizes an Arduino Uno, an ultrasonic sensor, a DC motor, and an L
 7) Power & GND	                ->     5V, GND
 
 # ⚡ Setup & Uploading Code:
-> Connect the components as per the schematic.
-> Install the Arduino IDE.
-> Add the LiquidCrystal library (if not installed).
-> Upload code.cpp to the Arduino Uno.
-> Open the Serial Monitor to see distance values.
+1) Connect the components as per the schematic.
+2) Install the Arduino IDE.
+3) Add the LiquidCrystal library (if not installed).
+4) Upload code.cpp to the Arduino Uno.
+5) Open the Serial Monitor to see distance values.
 
 # 🛠️ Future Improvements:
-> Use an I2C LCD for fewer connections.
-> Adda buzzer for audible alerts.
-> Implement Bluetooth/WiFi for remote monitoring.
+1) Use an I2C LCD for fewer connections.
+2) Adda buzzer for audible alerts.
+3) Implement Bluetooth/WiFi for remote monitoring.
 
 # 🎯 Purpose:
 This project is useful for automated object detection systems, robotics applications, and proximity-based control mechanisms.
